@@ -1,0 +1,121 @@
+Nomor,Usia,Glukosa,Tekanan darah,Ketebalan Kulit,Insulin,BMI,Penyakit
+1,54,148,72,35,0,33.6,Diabetes Mellitus
+2,43,85,66,29,0,26.6,Diabetes Mellitus
+3,27,183,64,0,0,23.3,Diabetes Mellitus
+4,45,89,66,23,94,28.1,Diabetes Mellitus
+5,55,137,40,35,168,43.1,Diabetes Mellitus
+6,57,116,74,0,0,25.6,Diabetes Mellitus
+7,56,78,50,32,88,31,Diabetes Mellitus
+8,55,115,0,0,0,35.3,Diabetes Mellitus
+9,67,197,70,45,543,30.5,Diabetes Mellitus
+10,55,125,96,0,0,0,Diabetes Mellitus
+11,51,110,92,0,0,37.6,Diabetes Mellitus
+12,49,168,74,0,0,38,Diabetes Mellitus
+13,48,139,80,0,0,27.1,Diabetes Mellitus
+14,40,189,60,23,846,30.1,Diabetes Mellitus
+15,48,166,72,19,175,25.8,Diabetes Mellitus
+16,60,100,0,0,0,30,Diabetes Mellitus
+17,65,118,84,47,230,45.8,Diabetes Mellitus
+18,34,107,74,0,0,29.6,Diabetes Mellitus
+19,57,103,30,38,83,43.3,Diabetes Mellitus
+20,58,115,70,30,96,34.6,Diabetes Mellitus
+21,45,126,88,41,235,39.3,Diabetes Mellitus
+22,41,99,84,0,0,35.4,Diabetes Mellitus
+23,44,196,90,0,0,39.8,Stroke
+24,49,119,80,35,0,29,Diabetes Mellitus
+25,55,143,94,33,146,36.6,Hepatitis B
+26,39,125,70,26,115,31.1,Diabetes Mellitus
+27,75,147,76,0,0,39.4,Stroke
+28,57,145,82,19,110,22.2,Stroke
+29,52,117,92,0,0,34.1,Vertigo
+30,49,109,75,26,0,36,Diabetes Mellitus
+31,23,158,76,36,245,31.6,Stroke
+32,63,88,58,11,54,24.8,Stroke
+33,59,92,92,0,0,19.9,Chepalgia
+34,46,122,78,31,0,27.6,Anemia
+35,52,138,76,0,0,33.2,Anemia
+36,25,102,76,37,0,32.9,Hipotensia
+37,19,90,68,42,0,38.2,Diabetes Mellitus
+38,54,111,72,47,207,37.1,Diabetes Mellitus
+39,61,133,84,0,0,40.2,Diabetes Mellitus
+40,46,106,92,18,0,22.7,Diabetes Mellitus
+41,39,159,64,0,0,27.4,Diabetes Mellitus
+42,52,180,66,39,0,42,Diabetes Mellitus
+43,56,146,56,0,0,29.7,Diabetes Mellitus
+44,66,103,66,32,0,39.1,Diabetes Mellitus
+45,62,105,0,0,0,0,Diabetes Mellitus
+46,49,103,60,33,192,24,Anemia
+47,45,171,110,24,240,45.4,Diabetes Mellitus
+48,42,180,64,25,70,34,Diabetes Mellitus
+49,44,97,66,15,140,23.2,Stroke
+50,47,71,70,27,0,28,Diabetes Mellitus
+51,41,187,68,39,304,37.7,Diabetes Mellitus
+52,55,195,70,33,145,25.1,Diabetes Mellitus
+53,59,189,60,23,846,30.1,Diabetes Mellitus
+54,50,164,82,43,67,32.8,Anemia
+55,51,136,74,26,135,26,Anemia
+56,50,148,72,35,0,33.6,Diabetes Mellitus
+57,47,163,72,41,114,40.9,Diabetes Mellitus
+58,58,140,82,43,325,39.2,Diabetes Mellitus
+59,60,181,68,36,495,30.1,Diabetes Mellitus
+60,51,143,94,33,146,36.6,Diabetes Mellitus
+61,54,150,78,29,126,35.2,Diabetes Mellitus
+62,58,173,78,32,265,46.5,Sepsis
+63,45,154,78,30,100,30.9,Hipoglikemi
+64,55,103,72,32,190,37.7,Sepsis
+65,42,150,66,42,342,34.7,Hipoglikemi
+66,23,102,86,36,120,45.5,Diabetes Mellitus
+67,24,171,72,33,135,33.3,Diabetes Mellitus
+68,28,163,70,18,105,31.6,Diabetes Mellitus
+69,43,100,74,40,215,39.4,Diabetes Mellitus
+70,52,176,86,27,156,33.3,Diabetes Mellitus
+71,53,145,88,34,165,30.3,Diabetes Mellitus
+72,45,102,74,40,105,37.2,Cardiomegali
+73,46,100,84,33,105,30,Anemia
+74,53,197,70,45,543,30.5,Diabetes Mellitus
+75,33,128,98,41,58,32,Diabetes Mellitus
+76,50,138,74,26,144,36.1,Diabetes Mellitus
+77,51,166,72,19,175,25.8,Diabetes Mellitus
+78,48,120,72,22,56,20.8,Hyperglikemi
+79,58,144,82,26,285,32,Diabetes Mellitus
+80,34,123,80,15,176,32,Anemia
+81,29,86,66,52,65,41.3,Anemia
+82,21,138,60,35,167,34.6,Diabetes Mellitus
+83,33,137,40,35,168,43.1,Diabetes Mellitus
+84,26,181,88,44,510,43.3,Diabetes Mellitus
+85,25,125,70,24,110,24.3,Sepsis
+86,25,68,70,32,66,25,Stroke
+87,52,124,76,24,600,28.7,Diabetes Mellitus
+88,46,144,82,46,180,46.1,Diabetes Mellitus
+89,26,88,30,42,99,55,Diabetes Mellitus
+90,54,171,110,24,240,45.4,Diabetes Mellitus
+91,58,176,90,34,300,33.7,Diabetes Mellitus
+92,23,107,74,30,100,33.6,Sepsis
+93,40,123,70,44,94,33.1,Stroke
+94,49,126,88,36,108,38.5,Stroke
+95,56,111,72,47,207,37.1,Diabetes Mellitus
+96,57,196,76,29,280,37.5,Diabetes Mellitus
+97,63,101,76,48,180,32.9,Sepsis
+98,81,134,74,33,60,25.9,Anemia
+99,51,181,84,21,192,35.9,Diabetes Mellitus
+100,40,145,80,46,130,37.9,Diabetes Mellitus
+101,60,129,90,7,326,19.6,Anemia
+102,43,142,90,24,480,30.4,Diabetes Mellitus
+103,39,160,54,32,175,30.5,Diabetes Mellitus
+104,61,142,60,33,190,28.8,Scabies
+105,39,153,88,37,140,40.6,Anemia
+106,53,187,76,27,207,43.6,Diabetes Mellitus
+107,40,126,78,27,22,29.6,Stroke
+108,40,168,88,42,321,38.2,Diabetes Mellitus
+109,57,145,82,19,110,22.2,Anemia
+110,37,133,88,15,155,32.4,Diabetes Mellitus
+111,51,155,76,28,150,33.3,Diabetes Mellitus
+112,45,133,102,28,140,32.8,Diabetes Mellitus
+113,51,148,84,48,237,37.6,Diabetes Mellitus
+114,47,161,68,23,132,25.5,Diabetes Mellitus
+115,44,92,62,7,258,27.6,Diabetes Mellitus
+116,45,125,70,18,122,28.9,Diabetes Mellitus
+117,39,96,56,34,115,24.7,Anemia
+118,33,167,74,17,144,23.4,Diabetes Mellitus
+119,48,120,80,37,150,42.3,Diabetes Mellitus
+120,42,156,86,28,155,34.3,Diabetes Mellitus
