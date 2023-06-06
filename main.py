@@ -1,7 +1,9 @@
-import pandas as pd
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+from clustering import perform_clustering
 
 # Fungsi untuk mengupload file CSV
 def upload_csv():
@@ -10,17 +12,19 @@ def upload_csv():
         if file_path:
             data = pd.read_csv(file_path)
             messagebox.showinfo("Informasi", "File CSV berhasil diupload.")
-            process_data(data)
+            normalize_data(data)
     except FileNotFoundError:
         messagebox.showerror("Error", "File tidak ditemukan.")
     except Exception as e:
         messagebox.showerror("Error", f"Terjadi kesalahan saat membaca file: {e}")
 
-# Fungsi untuk melakukan prosesing data setelah file CSV diupload
-def process_data(data):
-    # Kode prosesing data yang ingin dilakukan
-    # ...
-    messagebox.showinfo("Informasi", "Prosesing data selesai.")
+# Fungsi untuk melakukan normalisasi pada dataset
+def normalize_data(data):
+    scaler = MinMaxScaler()
+    normalized_data = scaler.fit_transform(data)
+    normalized_df = pd.DataFrame(normalized_data, columns=data.columns)
+    messagebox.showinfo("Informasi", "Data berhasil dinormalisasi.")
+    perform_clustering(normalized_df)
 
 # Membuat jendela utama
 window = tk.Tk()
