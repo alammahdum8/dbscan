@@ -1,22 +1,33 @@
 import pandas as pd
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import messagebox
 
 # Fungsi untuk mengupload file CSV
-def upload_csv(file_path):
+def upload_csv():
     try:
-        data = pd.read_csv(file_path)
-        return data
+        file_path = filedialog.askopenfilename(filetypes=[('CSV Files', '*.csv')])
+        if file_path:
+            data = pd.read_csv(file_path)
+            messagebox.showinfo("Informasi", "File CSV berhasil diupload.")
+            process_data(data)
     except FileNotFoundError:
-        print("File tidak ditemukan.")
+        messagebox.showerror("Error", "File tidak ditemukan.")
     except Exception as e:
-        print("Terjadi kesalahan saat membaca file:", e)
+        messagebox.showerror("Error", f"Terjadi kesalahan saat membaca file: {e}")
 
-# Memasukkan path file CSV yang ingin diupload
-file_path = input("Masukkan path file CSV: ")
+# Fungsi untuk melakukan prosesing data setelah file CSV diupload
+def process_data(data):
+    # Kode prosesing data yang ingin dilakukan
+    # ...
+    messagebox.showinfo("Informasi", "Prosesing data selesai.")
 
-# Memanggil fungsi upload_csv()
-dataframe = upload_csv(file_path)
+# Membuat jendela utama
+window = tk.Tk()
 
-# Jika data berhasil diupload, tampilkan informasi dataset
-if dataframe is not None:
-    print("Dataset berhasil diupload. Informasi dataset:")
-    print(dataframe.head())  # Menampilkan beberapa baris pertama dataset
+# Membuat tombol untuk mengupload file CSV
+upload_button = tk.Button(window, text="Upload CSV", command=upload_csv)
+upload_button.pack(pady=10)
+
+# Menjalankan jendela utama
+window.mainloop()
